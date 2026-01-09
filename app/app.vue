@@ -19,8 +19,8 @@ useSeoMeta({
   description,
   ogTitle: title,
   ogDescription: description,
-  ogImage: '/og-image.png',
-  twitterImage: '/og-image.png',
+  ogImage: 'https://mapchain.netlify.app/og-image.png',
+  twitterImage: 'https://mapchain.netlify.app/og-image.png',
   twitterCard: 'summary_large_image',
   twitterTitle: title,
   twitterDescription: description
