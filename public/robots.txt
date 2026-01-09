@@ -1,0 +1,25 @@
+# robots.txt for MapChain Protocol
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Allow WhatsApp crawler
+User-agent: WhatsApp
+Allow: /
+
+# Allow social media crawlers
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: Slackbot
+Allow: /
+
+# Sitemap location
+Sitemap: https://mapchain.netlify.app/sitemap.xml
