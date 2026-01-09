@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Map marker positioned to the right -->
+  <g transform="translate(26, 0) scale(2)">
+    <!-- Pin body -->
+    <path d="M 15 0 C 8 0 2 6 2 13 C 2 23 15 35 15 35 S 28 23 28 13 C 28 6 22 0 15 0 Z"
+          fill="#10b981"
+          stroke="#ffffff"
+          stroke-width="1.5"/>
+
+    <!-- Inner circle (blockchain symbol) -->
+    <circle cx="15" cy="13" r="6" fill="#ffffff" opacity="0.9"/>
+
+    <!-- Blockchain "chain" symbol -->
+    <g transform="translate(15, 13)">
+      <circle cx="-3" cy="-2" r="1.5" fill="#10b981"/>
+      <circle cx="3" cy="-2" r="1.5" fill="#10b981"/>
+      <circle cx="0" cy="2" r="1.5" fill="#10b981"/>
+      <line x1="-3" y1="-2" x2="0" y2="2" stroke="#10b981" stroke-width="0.8"/>
+      <line x1="3" y1="-2" x2="0" y2="2" stroke="#10b981" stroke-width="0.8"/>
+    </g>
+  </g>
+</svg>
